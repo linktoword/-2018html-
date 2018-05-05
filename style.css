@@ -95,3 +95,27 @@ nav .bott .two {
 }
 
 /*  中间展示部分 */
+
+.main .ma-top .ma-mid {
+  width: 960px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  height: 70px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  align-items: flex-end; /* 盒子内的元素底部对齐 */
+}
+
+.main .ma-top .ma-mid div {
+  float: left;
+  width: 105px;
+  height: 50px;
+  border: 1px solid rgb(200, 200, 200);
+  text-align: center;
+  line-height: 50px;
+  border-radius: 10px 10px  0  0;
+}
+
+.main .ma-top .ma-mid .mid-one {
+  border-bottom-color: #ffffff;
+}
