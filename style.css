@@ -96,26 +96,60 @@ nav .bott .two {
 
 /*  中间展示部分 */
 
+.main .ma-top {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid rgb(200, 200, 200);
+}
+
 .main .ma-top .ma-mid {
   width: 960px;
   margin: 0 auto;
   /* border: 1px solid red; */
   height: 70px;
   background: rgb(255, 255, 255);
-  display: flex;
-  align-items: flex-end; /* 盒子内的元素底部对齐 */
 }
 
-.main .ma-top .ma-mid div {
+.main .ma-top .ma-mid .nav {
+  width: 400px;
+  height: 70px;
+}
+
+.main .ma-top .ma-mid .nav div {
   float: left;
   width: 105px;
   height: 50px;
   border: 1px solid rgb(200, 200, 200);
   text-align: center;
   line-height: 50px;
-  border-radius: 10px 10px  0  0;
+  border-radius: 20px 20px  0  0;
+  margin-top: 20px;
+  background: rgb(238, 238, 238);
 }
 
-.main .ma-top .ma-mid .mid-one {
-  border-bottom-color: #ffffff;
+.main .ma-top .ma-mid .nav .mid-one {
+  border-bottom: none;
+  background: rgb(255, 255, 255);
+}
+
+/* 作品展示区域 */
+
+.ma-show {
+  width: 960px;
+  margin: 10px auto;
+  border: 1px solid red;
+}
+
+.ma-show .row {
+  width: 100%;
+  height: 175px;
+  display: flex;
+}
+
+.ma-show .row .cell {
+  border: 1px solid rgb(238, 238, 238);
+  flex: auto;
+  margin: 10px;
+  padding: 80px;
+  text-align: center;
 }
