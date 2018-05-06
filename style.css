@@ -137,7 +137,6 @@ nav .bott .two {
 .ma-show {
   width: 960px;
   margin: 10px auto;
-  border: 1px solid red;
 }
 
 .ma-show .row {
@@ -151,5 +150,16 @@ nav .bott .two {
   flex: auto;
   margin: 10px;
   padding: 80px;
+  text-align: center; 
+}
+footer {
+  width: 100%;
+  height: 120px;
+  background: rgb(102, 102, 102);
+}
+
+footer div {
   text-align: center;
+  color: white;
+  padding: 20px;
 }
